@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #fee2d7;
+    color: #000000;
+  }
+  
+  header{
+    background:  #36738e;
+    color: #fee2d7;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #993434;
+    text-align: center;
+  }
+  
+  nav a {
+    margin:15px;
+    color: #fee2d7;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 30px;
+  }
+  
+  section h2 {
+    color: #993434;
+    border-bottom: 2px solid #993434;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  
+  .producto{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  img {
+    width: 150px;
+  }
+
+
+  .producto h3 {
+    margin: 10px;
+    font-size: 16px;
+    color: #36738e;
+  }
+  
+  .producto p {
+    font-weight: bold;
+    color: #993434;
+  }
+  
+  .tallas button {
+    margin: 5px ;
+    padding: 6px ;
+    border: none;
+    background-color: #9cad98;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tallas button:hover {
+    background-color: #993434;
+  }

@@ -6,8 +6,8 @@ body {
   }
   
   header{
-    background:  #36738e;
-    color: #fee2d7;
+    background:  #993434;
+    color: #f9f9f9;
     padding: 30px;
     text-align: center;
   }
@@ -29,7 +29,7 @@ body {
   
   nav a {
     margin:15px;
-    color: #fee2d7;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
   }

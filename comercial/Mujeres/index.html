@@ -1,61 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Catálogo Mujer - Haven</title>
-  <link rel="stylesheet" href="../../CSS/style (1).css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Haven - Mujeres</title>
+  <link rel="stylesheet" href="/CSS/style (1).css">
 </head>
 <body>
 
- <header>
-    <div class="contenedor-header">
-      <h1 class="logo">HAVEN</h1>
-      <nav class="nav">
-        <a href="../../Index.html">Inicio</a>
-        <a href="#">Productos</a>
-        <a href="#">Contacto</a>
-        <a href="../Mujeres/Index.html">Mujeres</a> 
-        <a href="../Hombres/hmbr.html">Hombres</a>
-      </nav>
-      <div class="iconos">
-        <i class="fas fa-user">👤</i>
+
+<header>
+  <div class="contenedor-header">
+    <a href="Index.html" class="logo">
+      <img src="/images/haven logo.png" alt="HAVEN Logo" style="height: 40px;">
+    </a>
+    <nav class="nav">
+      <a href="Index.html">Inicio</a>
+      <a href="Comercial/Mujeres/Index.html">Mujeres</a> 
+      <a href="Comercial/Hombres/hmbr.html">Hombres</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <div class="iconos">
+      <i class="fas fa-user">👤</i>
+      <a href="/Comercial/Compras/Carrito.html">
         <i class="fas fa-shopping-cart">🛒</i>
-      </div>
+      </a>
     </div>
-    <br>
-    <h1>Catálogo de Mujeres</h1>
+  </div>
+  <br>
+  <h1>Mujeres</h1>
+
+    <nav class="sub-nav">
+  <a href="#camisas">Camisas</a>
+  <a href="#pantalones">Pantalones</a>
+  <a href="#buzos">Buzos</a>
+  <a href="#medias">Medias</a>
+    </nav>
+
+
   </header>
 
-<section class="productos">
+  <main>
 
-  <article class="producto">
-    <img src="../../images/1.jpeg" alt="Buzo árbol">
-    <h2>Buzo Beige</h2>
-    <p class="precio">$85.000</p>
-    <a href="../Mujeres/Productos/producto1.html"></a>
-    <button >VISITAR</button>
- 
-  
+    <section id="camisas">
+      <h2>Camisas</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="/images/6.jpg" alt="Camisa Casual"/>
+          <h3>Camisa Casual</h3>
+          <p>$35.000</p>
+          <div class="tallas">
+            <button>S</button><button>M</button><button>L</button>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="/images/5.jpg" alt="Camisa Elegante"/>
+          <h3>Camisa Elegante</h3>
+          <p>$42.000</p>
+          <div class="tallas">
+            <button>S</button><button>M</button><button>L</button>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="/images/4.jpg" alt="Camisa Estampada"/>
+          <h3>Camisa Estampada</h3>
+          <p>$38.000</p>
+          <div class="tallas">
+            <button>S</button><button>M</button><button>L</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </article>
+    <section id="pantalones">
+      <h2>Pantalones</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="img/pantalon1.jpg" alt="Pantalón Chino"/>
+          <h3>Pantalón Chino</h3>
+          <p>$50.000</p>
+          <div class="tallas">
+            <button>30</button><button>32</button><button>34</button>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="img/pantalon2.jpg" alt="Jeans Slim"/>
+          <h3>Jeans Slim</h3>
+          <p>$47.000</p>
+          <div class="tallas">
+            <button>30</button><button>32</button><button>34</button>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="img/pantalon3.jpg" alt="Pantalón Formal"/>
+          <h3>Pantalón Formal</h3>
+          <p>$55.000</p>
+          <div class="tallas">
+            <button>30</button><button>32</button><button>34</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <article class="producto">
-    <img src="../../images/2.jpeg" alt="Buzo Círculo Dorado">
-    <h2>Buzo Gris</h2>
-    <p class="precio">$89.000</p>
-    <a href="../Mujeres/Productos/producto2.html"></a>
-     <button >VISITAR</button>
-  </article>
+    <section id="buzos">
+      <h2>Buzos</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="img/buzo1.jpg" alt="Buzo Clásico"/>
+          <h3>Buzo Clásico</h3>
+          <p>$40.000</p>
+          <div class="tallas">
+            <button>S</button><button>M</button><button>L</button>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="img/buzo2.jpg" alt="Buzo Oversize"/>
+          <h3>Buzo Oversize</h3>
+          <p>$45.000</p>
+          <div class="tallas">
+            <button>S</button><button>M</button><button>L</button>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="img/buzo3.jpg" alt="Buzo con Capucha"/>
+          <h3>Buzo con Capucha</h3>
+          <p>$48.000</p>
+          <div class="tallas">
+            <button>S</button><button>M</button><button>L</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <article class="producto">
-    <img src="../../images/3.jpeg" alt="Buzo Bosque">
-    <h2>Buzo oversize</h2>
-    <p class="precio">$90.000</p>
-    <a href="../Mujeres/Productos/producto3.html" ></a>
-     <button >VISITAR</button>
-  </article>
+    <section id="medias">
+      <h2>Medias</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="img/medias1.jpg" alt="Medias Deportivas"/>
+          <h3>Medias Deportivas</h3>
+          <p>$12.000</p>
+          <div class="tallas">
+            <button>38</button><button>40</button><button>42</button>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="img/medias2.jpg" alt="Medias Negras"/>
+          <h3>Medias Negras</h3>
+          <p>$10.000</p>
+          <div class="tallas">
+            <button>38</button><button>40</button><button>42</button>
+          </div>
+        </div>
+        <div class="producto">
+          <img src="img/medias3.jpg" alt="Medias Fantasía"/>
+          <h3>Medias Fantasía</h3>
+          <p>$15.000</p>
+          <div class="tallas">
+            <button>38</button><button>40</button><button>42</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</section>
 
 </body>
-</html>
+</html

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrito de compras | Haven</title>
+  <link rel="stylesheet" href="/Comercial/Compras/Carrito.css" />
+  <script src="/Comercial/Compras/script.js"></script>
+</head>
+<body>
+  <h1>Carrito de compras</h1>
+
+  <table class="tabla-carrito">
+    <thead>
+      <tr>
+        <th>PRODUCTO</th>
+        <th>PRECIO</th>
+        <th>CANTIDAD</th>
+        <th>TOTAL</th>
+        <th>ELIMINAR</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="producto">
+          <img src="../Mujeres/img/camisa1.jpg" alt="Camisa" />
+          <div class="detalles">
+            <p>Camisa en tela tipo satín Negro S</p>
+            <span>Entregado por Haven</span>
+          </div>
+        </td>
+        <td class="precio">
+          <span class="anterior">$129.000</span>
+          <span class="actual">$113.337</span>
+        </td>
+        <td class="cantidad">
+          <button class="btn-menos">−</button>
+          <input type="number" value="1" min="1" />
+          <button class="btn-mas">+</button>
+        </td>
+        <td class="total">$113.337</td>
+        <td class="eliminar">
+          <button class="btn-eliminar">
+            <i class="fas fa-trash"></i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="finalizar">
+    <h3>Total a pagar: $113.337</h3>
+    <button class="btn-finalizar">Finalizar compra</button>
+  </div>
+</body>
+</html>

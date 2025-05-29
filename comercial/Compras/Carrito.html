@@ -8,6 +8,25 @@
   <script src="/Comercial/Compras/script.js"></script>
 </head>
 <body>
+
+<header>
+
+  <div class="contenedor-header">
+    <a href="Index.html" class="logo">
+      <img src="/images/haven logo.png" alt="HAVEN Logo" style="height: 40px;">
+    </a>
+
+    <div class="iconos">
+      <a href="/comercial/datos/login.html">
+      <i class="fas fa-user">👤</i>
+      </a>
+      <a href="/Comercial/Compras/Carrito.html">
+        <i class="fas fa-shopping-cart">🛒</i>
+      </a>
+    </div>
+  </div>
+</header>
+
   <h1>Carrito de compras</h1>
 
   <table class="tabla-carrito">
@@ -23,22 +42,22 @@
     <tbody>
       <tr>
         <td class="producto">
-          <img src="../Mujeres/img/camisa1.jpg" alt="Camisa" />
+          <img src="/images/Mujeres/Pantalon 2.jpeg" alt="Camisa" />
           <div class="detalles">
-            <p>Camisa en tela tipo satín Negro S</p>
-            <span>Entregado por Haven</span>
+            <p>Pantalon de vestir talla 10</p>
+            <span>Primera compra</span>
           </div>
         </td>
         <td class="precio">
           <span class="anterior">$129.000</span>
-          <span class="actual">$113.337</span>
+          <span class="actual">$75.000</span>
         </td>
         <td class="cantidad">
           <button class="btn-menos">−</button>
           <input type="number" value="1" min="1" />
           <button class="btn-mas">+</button>
         </td>
-        <td class="total">$113.337</td>
+        <td class="total">$75.000</td>
         <td class="eliminar">
           <button class="btn-eliminar">
             <i class="fas fa-trash"></i>
@@ -49,7 +68,7 @@
   </table>
 
   <div class="finalizar">
-    <h3>Total a pagar: $113.337</h3>
+    <h3>Total a pagar: $75.000</h3>
     <button class="btn-finalizar">Finalizar compra</button>
   </div>
 </body>

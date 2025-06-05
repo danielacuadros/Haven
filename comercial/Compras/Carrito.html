@@ -1,77 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carrito de compras | Haven</title>
-  <link rel="stylesheet" href="/Comercial/Compras/Carrito.css" />
-  <script src="/Comercial/Compras/script.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito de compras | Haven</title>
+    <link rel="stylesheet" href="/Comercial/Compras/Carrito.css" />
+    <script src="/Comercial/Compras/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor-header">
+        <a href="/Index.html" class="logo">
+          <img
+            src="/images/haven logo.png"
+            alt="HAVEN Logo"
+            style="height: 40px"
+          />
+        </a>
 
-<header>
+        <div class="iconos">
+          <a href="/Login/login.html">
+            <i class="fas fa-user">👤</i>
+          </a>
+          <a href="/Comercial/Compras/Carrito.html">
+            <i class="fas fa-shopping-cart">🛒</i>
+          </a>
+        </div>
+      </div>
+    </header>
 
-  <div class="contenedor-header">
+    <h1>Carrito de compras</h1>
 
+    <table class="tabla-carrito">
+      <thead>
+        <tr>
+          <th>PRODUCTO</th>
+          <th>PRECIO</th>
+          <th>CANTIDAD</th>
+          <th>TOTAL</th>
+          <th>ELIMINAR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="producto">
+            <img src="/images/Mujeres/Pantalon 2.jpeg" alt="Camisa" />
+            <div class="detalles">
+              <p>Pantalon de vestir talla 10</p>
+              <span>Primera compra</span>
+            </div>
+          </td>
+          <td class="precio">
+            <span class="anterior">$129.000</span>
+            <span class="actual">$75.000</span>
+          </td>
+          <td class="cantidad">
+            <button class="btn-menos">−</button>
+            <input type="number" value="1" min="1" />
+            <button class="btn-mas">+</button>
+          </td>
+          <td class="total">$75.000</td>
+          <td class="eliminar">
+            <button class="btn-eliminar">
+              <i class="fas fa-trash"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-    <a href="/Index.html" class="logo">
-      <img src="/images/haven logo.png" alt="HAVEN Logo" style="height: 40px;">
-    </a>
-
-    <div class="iconos">
-      <a href="/Login/login.html">
-      <i class="fas fa-user">👤</i>
-      </a>
-      <a href="/Comercial/Compras/Carrito.html">
-        <i class="fas fa-shopping-cart">🛒</i>
-      </a>
+    <div class="finalizar">
+      <h3>Total a pagar: $75.000</h3>
+      <button class="btn-finalizar">Finalizar compra</button>
     </div>
-  </div>
-</header>
-
-  <h1>Carrito de compras</h1>
-
-  <table class="tabla-carrito">
-    <thead>
-      <tr>
-        <th>PRODUCTO</th>
-        <th>PRECIO</th>
-        <th>CANTIDAD</th>
-        <th>TOTAL</th>
-        <th>ELIMINAR</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="producto">
-          <img src="/images/Mujeres/Pantalon 2.jpeg" alt="Camisa" />
-          <div class="detalles">
-            <p>Pantalon de vestir talla 10</p>
-            <span>Primera compra</span>
-          </div>
-        </td>
-        <td class="precio">
-          <span class="anterior">$129.000</span>
-          <span class="actual">$75.000</span>
-        </td>
-        <td class="cantidad">
-          <button class="btn-menos">−</button>
-          <input type="number" value="1" min="1" />
-          <button class="btn-mas">+</button>
-        </td>
-        <td class="total">$75.000</td>
-        <td class="eliminar">
-          <button class="btn-eliminar">
-            <i class="fas fa-trash"></i>
-          </button>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <div class="finalizar">
-    <h3>Total a pagar: $75.000</h3>
-    <button class="btn-finalizar">Finalizar compra</button>
-  </div>
-</body>
+  </body>
 </html>

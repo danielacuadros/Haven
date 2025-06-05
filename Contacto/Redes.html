@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="/CSS/style (1).css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="contenedor-header">
+      <a href="/Index.html" class="logo">
+        <img src="/images/haven logo.png" alt="HAVEN Logo" style="height: 40px;">
+      </a>
+      
+      <nav class="nav">
+        <a href="/Index.html">Inicio</a>
+        <a href="/Comercial/Mujeres/Inicio.html">Mujeres</a> 
+        <a href="/Comercial/Hombres/hmbr.html">Hombres</a>
+        <a href="#" class="active">Contacto</a>
+      </nav>
+      
+      <div class="iconos">
+        <a href="/Login/login.html">
+          <i class="fas fa-user"></i>
+        </a>
+        <a href="/Comercial/Compras/Carrito.html">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+      </div>
+      
+    </div>
+  </header>
+
+  <main class="contacto-main">
+    <div class="contacto-contenedor">
+      <div class="contacto-info">
+        <h2>Contáctanos</h2>
+        <p class="contacto-texto">
+          ¿Tienes alguna pregunta o comentario? Estamos aquí para ayudarte. 
+          Completa el formulario o contáctanos directamente a través de 
+          nuestras redes sociales.
+        </p>
+        
+        <div class="redes-sociales">
+          <h3>Síguenos en redes</h3>
+          <div class="iconos-redes">
+            <a href="https://facebook.com/tupagina" target="_blank" aria-label="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com/tupagina" target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/573021013960" target="_blank" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="formulario-contacto">
+        <h2>Escríbenos</h2>
+        <form class="form-contacto">
+          <div class="grupo-form">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="grupo-form">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="grupo-form">
+            <label for="telefono">Teléfono (opcional)</label>
+            <input type="tel" id="telefono" name="telefono">
+          </div>
+          <div class="grupo-form">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+          </div>
+          <button type="submit" class="boton-enviar">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
